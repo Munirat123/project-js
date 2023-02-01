@@ -42,13 +42,7 @@ console.log('num2 = ', num2);     // 5
 
 // Grab user input with prompt function
 
-var num1 = readInt("Input a number");
-var num2 = readInt("Input a number");
-
-println("Hello " + num1 + "!");
-println(num + "?! That's one of my favorite numbers!");
-
-println("Hello " + num2 + "!");
+var num = prompt("What is your favorite number? ");
 println(num + "?! That's one of my favorite numbers!");
 
 // Try explicit conversion
@@ -73,3 +67,6 @@ console.log('num1 / num2= ', num1 / num2);
 // modulus
 console.log('num1 % num2= ', num1 % num2);  
 
+// You can only use let for a variable once
+
+// node operator.js (to initialise node)
